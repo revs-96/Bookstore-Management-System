@@ -37,11 +37,10 @@ Before you begin, make sure you have the following installed:
     ```
 ### API Documentation
 
-View the API documentation using Postman::
+View the API documentation using Postman:
 
-- [Postman API Documentation](https://documenter.getpostman.com/view/27921547/2s9YypFNsD)
+- <a href="https://documenter.getpostman.com/view/27921547/2s9YypFNsD" style="color: red;">Postman API Documentation</a>
 
-  
 ### Usage
 
 To run the application, use the following command:
