@@ -1,0 +1,222 @@
+{
+	"info": {
+		"_postman_id": "9b4d41d4-cd66-422f-984e-cad64c2ada38",
+		"name": "BookStore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27921547"
+	},
+	"item": [
+		{
+			"name": "AddBooks",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcwNjE5NjI3OCwianRpIjoiNzE3ODBiNTgtY2VjMy00YmEyLThmODgtMThhY2M4YjhmNDY5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6Ik15X3VzZXJuYW1lIiwibmJmIjoxNzA2MTk2Mjc4LCJjc3JmIjoiYjA2YzY3NDEtMjJhYy00ZTRkLWI0NjctYWFkMjJhMGEwMjhjIiwiZXhwIjoxNzA2MTk3MTc4fQ.tU9ddrlGNntQitLdK6T32-fdWZZqp3QKxXFVsw-y5YE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/books",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RetrievingAllBooks",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcwNjE5NjI3OCwianRpIjoiNzE3ODBiNTgtY2VjMy00YmEyLThmODgtMThhY2M4YjhmNDY5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6Ik15X3VzZXJuYW1lIiwibmJmIjoxNzA2MTk2Mjc4LCJjc3JmIjoiYjA2YzY3NDEtMjJhYy00ZTRkLWI0NjctYWFkMjJhMGEwMjhjIiwiZXhwIjoxNzA2MTk3MTc4fQ.tU9ddrlGNntQitLdK6T32-fdWZZqp3QKxXFVsw-y5YE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/books",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RetrievingSpecificBookByISBN",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcwNjE5NjI3OCwianRpIjoiNzE3ODBiNTgtY2VjMy00YmEyLThmODgtMThhY2M4YjhmNDY5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6Ik15X3VzZXJuYW1lIiwibmJmIjoxNzA2MTk2Mjc4LCJjc3JmIjoiYjA2YzY3NDEtMjJhYy00ZTRkLWI0NjctYWFkMjJhMGEwMjhjIiwiZXhwIjoxNzA2MTk3MTc4fQ.tU9ddrlGNntQitLdK6T32-fdWZZqp3QKxXFVsw-y5YE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/books/9780008386642",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"books",
+						"9780008386642"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateBookDetails",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcwNjE5NjI3OCwianRpIjoiNzE3ODBiNTgtY2VjMy00YmEyLThmODgtMThhY2M4YjhmNDY5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6Ik15X3VzZXJuYW1lIiwibmJmIjoxNzA2MTk2Mjc4LCJjc3JmIjoiYjA2YzY3NDEtMjJhYy00ZTRkLWI0NjctYWFkMjJhMGEwMjhjIiwiZXhwIjoxNzA2MTk3MTc4fQ.tU9ddrlGNntQitLdK6T32-fdWZZqp3QKxXFVsw-y5YE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"The Subtle Art of God\",\r\n    \"author\": \"Mark Manson\",\r\n    \"isbn\": \"9780062457714\",\r\n    \"price\": 275,\r\n    \"quantity\": 55\r\n  }\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/books/9780008386642",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"books",
+						"9780008386642"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeletingBook",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcwNjE5NjI3OCwianRpIjoiNzE3ODBiNTgtY2VjMy00YmEyLThmODgtMThhY2M4YjhmNDY5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6Ik15X3VzZXJuYW1lIiwibmJmIjoxNzA2MTk2Mjc4LCJjc3JmIjoiYjA2YzY3NDEtMjJhYy00ZTRkLWI0NjctYWFkMjJhMGEwMjhjIiwiZXhwIjoxNzA2MTk3MTc4fQ.tU9ddrlGNntQitLdK6T32-fdWZZqp3QKxXFVsw-y5YE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/books/9781577314806",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"books",
+						"9781577314806"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TokenGeneration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"My_username\",\r\n  \"password\": \"My_password\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
