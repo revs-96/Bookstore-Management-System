@@ -10,9 +10,9 @@ The Bookstore Management System API is a web service that provides CRUD (Create,
 
 Before you begin, make sure you have the following installed:
 
-- [Python](https://www.python.org/) (version X.X.X)
-- [Flask](https://pypi.org/project/Flask/) (version X.X.X)
-- [SQLAlchemy](https://pypi.org/project/SQLAlchemy/) (version X.X.X)
+- [Python](https://www.python.org/) 
+- [Flask](https://pypi.org/project/Flask/) 
+- [SQLAlchemy](https://pypi.org/project/SQLAlchemy/) 
 - [Postman](https://www.postman.com/) (for testing API endpoints)
 
 ### Installation
@@ -35,7 +35,13 @@ Before you begin, make sure you have the following installed:
     ```bash
     python manage.py create_db
     ```
+### API Documentation
 
+View the API documentation using Postman::
+
+- [Postman API Documentation](https://documenter.getpostman.com/view/27921547/2s9YypFNsD)
+
+  
 ### Usage
 
 To run the application, use the following command:
