@@ -40,5 +40,11 @@ Before you begin, make sure you have the following installed:
 
 To run the application, use the following command:
 
+
 ```bash
 python app.py
+Running Tests
+To run tests, use the following command:
+
+bash
+python test_app.py
