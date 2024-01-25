@@ -1,5 +1,3 @@
-# Bookstore-Management-System
-A Python and Flask-based Bookstore Management System with JWT token authorization for secure CRUD operations. Offers RESTful API endpoints for adding, retrieving, updating, and deleting book entries, ensuring seamless integration.
 # Bookstore Management System API
 
 ## Introduction
@@ -44,5 +42,3 @@ To run the application, use the following command:
 
 ```bash
 python app.py
-
-The API will be accessible at http://localhost:5000/
