@@ -35,11 +35,11 @@ Before you begin, make sure you have the following installed:
     ```bash
     python manage.py create_db
     ```
-### API Documentation
+### API Documentation🔴🔴🔴
 
 View the API documentation using Postman:
 
-- <a href="https://documenter.getpostman.com/view/27921547/2s9YypFNsD" style="color: red;">Postman API Documentation</a>
+- [Postman API Documentation](https://documenter.getpostman.com/view/27921547/2s9YypFNsD)
 
 ### Usage
 
