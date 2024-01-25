@@ -54,3 +54,52 @@ python app.py
 python test_app.py
 ```
 
+## Endpoints
+
+### GET /books
+Retrieve a list of all books.
+
+**Endpoint:**
+- [http://127.0.0.1:5000/books](http://127.0.0.1:5000/books)
+
+### GET /books/{isbn}
+Retrieve details of a specific book.
+
+**Endpoint:**
+- [http://127.0.0.1:5000/books/9780008386642](http://127.0.0.1:5000/books/9780008386642)
+
+### POST /books
+Add a new book.
+
+**Endpoint:**
+- [http://127.0.0.1:5000/books](http://127.0.0.1:5000/books)
+
+### PUT /books/{isbn}
+Update details of a specific book.
+
+**Endpoint:**
+- [http://127.0.0.1:5000/books/9780008386642](http://127.0.0.1:5000/books/9780008386642)
+
+### DELETE /books/{isbn}
+Delete a specific book.
+
+## Token Generation
+
+### POST /login
+Generate a token for authentication.
+
+**Endpoint:**
+- [http://127.0.0.1:5000/login](http://127.0.0.1:5000/login)
+
+## Request Examples
+
+### POST /books
+
+```json
+{
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "isbn": "9780008386596",
+    "price": 19.99,
+    "quantity": 50
+}
